@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 399097762}
   - component: {fileID: 399097761}
   - component: {fileID: 399097763}
+  - component: {fileID: 399097764}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -222,6 +223,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399097760}
   m_Enabled: 1
+--- !u!114 &399097764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399097760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2bd9f7b1c184ac392c8d1b743eb80c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531015954
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,7 +418,7 @@ PrefabInstance:
     - target: {fileID: 497177173653957992, guid: a6cb84112313c4fc88eeddf684dc756d,
         type: 3}
       propertyPath: m_EnemyTypes.Array.data[0].m_SpawnRate
-      value: 35.1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1850145156834750398, guid: a6cb84112313c4fc88eeddf684dc756d,
         type: 3}
@@ -38990,7 +39003,7 @@ PrefabInstance:
     - target: {fileID: 497177173653957992, guid: a6cb84112313c4fc88eeddf684dc756d,
         type: 3}
       propertyPath: m_EnemyTypes.Array.data[0].m_SpawnRate
-      value: 35.1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1850145156834750398, guid: a6cb84112313c4fc88eeddf684dc756d,
         type: 3}

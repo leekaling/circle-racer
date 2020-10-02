@@ -46,8 +46,9 @@ public class MainMenu : MonoBehaviour
     }
     public void quitGame()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
-        Application.Quit();
+        //UnityEditor.EditorApplication.isPlaying = false;
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+            Application.Quit();
     }
     public void MapSelect()
     {
